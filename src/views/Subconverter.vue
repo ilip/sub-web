@@ -4,7 +4,7 @@
       <el-col>
         <el-card>
           <div slot="header">
-            Subscription Converter
+            背影订阅转换
             <svg-icon icon-class="github" style="margin-left: 20px" @click="goToProject" />
 
             <div style="display: inline-block; position:absolute; right: 20px">{{ backendVersion }}</div>
@@ -336,7 +336,7 @@ export default {
         remoteConfig: "",
         excludeRemarks: "",
         includeRemarks: "",
-        filename: "",
+        filename: "beiying_sub",
         emoji: true,
         nodeList: false,
         extraset: false,
@@ -374,7 +374,7 @@ export default {
     };
   },
   created() {
-    document.title = "Subscription Converter";
+    document.title = "背影订阅转换";
     this.isPC = this.$getOS().isPc;
 
     // 获取 url cache
