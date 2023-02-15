@@ -310,6 +310,11 @@ export default {
                 label: "Urltest",
                 value:
                   "https://cdn.jsdelivr.net/gh/SleepyHeeead/subconverter-config@master/remote-config/universal/urltest.ini"
+              },
+              {
+                label: "SelfUse",
+                value:
+                  "https://cdn.jsdelivr.net/gh/ilip/config@main/subconverter/main.ini"
               }
             ]
           },
